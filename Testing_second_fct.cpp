@@ -15,7 +15,7 @@ struct Node {
 };
 
 
-Node* Initialize() {
+Node* Initialize() 
 	return NULL;
 }
 
@@ -40,7 +40,7 @@ if(Head==NULL)
 	   }   
 
 
-   	temp->txt[0]=c;
+   	temp->txt=c;
 	temp->next=NULL;
 	temp->left=NULL;
 	temp->right=NULL;
@@ -80,7 +80,7 @@ for(element=Head;element!=NULL;element=element->next)
     	exit(1);
 	}
 	
-	tmp->txt[0]=c;
+	tmp->txt=c;
 	tmp->next=NULL;
 	tmp->left=NULL;
 	tmp->right=NULL;
