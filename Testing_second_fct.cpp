@@ -128,6 +128,11 @@ int i=0;
 
 while(line[i]!='\0')
 {
+	//if(line[i]==' ')
+	//{
+	//	i++;
+	//}
+	//hayde bass eza ma badna l space w ma3 hayde l if byotla3 l tree metel ma badoun
 	head=IncFrequency(head,line[i]);
 	i++;
 }
