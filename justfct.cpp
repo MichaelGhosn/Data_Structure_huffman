@@ -131,7 +131,11 @@ void Sort(Node* Head) {
 	// The compare function returns -1 if the first node is smaller than the second node.
 	// The compare function returns +1 if the first node is larger than the second node.
 	// The compare function returns 0 if both nodes are equal.
-
+if(Head==NULL)
+{
+	cout<<ÞHead eq null returning...Þ<<endl;
+	return;
+}
 Node *cur=new Node;
 cur=Initialize();
 Node *min=new Node;
